@@ -4,16 +4,17 @@
   border-color: rgb(134, 134, 134);
 }
 .form-control:focus {
-  border-color: #f7b801;
+  border-color: #f71101;
   -webkit-box-shadow: none;
   box-shadow: none;
-  box-shadow: 0 0 10px #f7b801 !important;
+  box-shadow: 0 0 10px #c85a5a !important;
 }
 .contactSection {
-  background-image: url("/assets/img/one-yellow.png");
+  background-image: url("assets/img/svg (1).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #c85a5a;
 }
 #inputName,
 #inputEmail,
@@ -25,15 +26,17 @@
 
 .Cbtn {
   appearance: none;
-  background-color: transparent;
+  background-color: black;
   border: 1px solid #ffffff;
   border-radius: 35px;
   box-sizing: border-box;
   color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-
+  left: 2em;
   cursor: pointer;
-  display: inline-block;
+  position: absolute;
+  left: 2em;
+  right: 2em;
   line-height: normal;
   outline: none;
   padding: 6px 4px;
@@ -53,11 +56,12 @@
 
 .Cbtn:hover {
   color: white;
-  background-color: #f7b801;
+  background-color: #000000;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
-  border-color: #ffd100;
+  transform: translateY(-5px);
+  border-color: #ef2525;
   border: 1px solid #ffffff;
+  
 }
 
 .Cbutton-28:active {
@@ -76,20 +80,26 @@
   #subj,
   #msg {
     width: 90vw !important;
-    margin: 0 5vw !important;
+    margin: 86% !important;
     justify-content: center;
   }
 
   .Cbtn {
     appearance: none;
-    background-color: purple !important;
+    background-color: rgb(0, 0, 0) !important;
   }
 
   #contactSection {
-    background-image: url("./images/one.png");
+    background-image: url(".assets\img\team\one-yellow.png");
     height: 100vh !important;
     width: 100vw !important;
   }
+
+
+
+
+
+
   #checkBtn {
     width: 40vw !important;
     justify-content: center !important;
@@ -103,10 +113,10 @@
 @media (max-width: 767px) {
   .Cbtn {
     appearance: none;
-    background-color: rgba(255, 200, 60, 255) !important;
+    background-color: black;
   }
   .Cbtn:hover {
-    background-color: #f7b801 !important;
+    background-color: #f70101 !important;
   }
   #inputName,
   #inputEmail,

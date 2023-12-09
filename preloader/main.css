@@ -215,14 +215,14 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-common {
-  background-color: #f63854;
+  background-color: #df4e64;
   position: relative;
   z-index: 1;
   text-transform: uppercase;
 }
 
 .btn-common:hover {
-  color: #f63854;
+  color: #0a0a0a;
   background: transparent;
   border: 1px dotted #f63854;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
